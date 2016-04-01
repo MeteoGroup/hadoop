@@ -1,0 +1,3 @@
+Apache™ Hadoop® in a docker image, Copyright © 2016 MeteoGroup Deutschland GmbH
+
+Apache™ Hadoop® is released under Apache License 2.0
