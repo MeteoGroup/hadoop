@@ -2,8 +2,8 @@
 Hadoop base image
 =================
 
-It's [Hadoop®](http://hadoop.apache.org), in a [docker](https://www.docker.com)
-image.
+It's [Hadoop®](http://hadoop.apache.org), in a
+[docker image](https://hub.docker.com/r/meteogroup/hadoop/).
 
 A basic replacement for `which` is created as it is missing in the centos based
 base image and is required by `hadoop-config.sh`.
@@ -25,13 +25,20 @@ docker build -t "<image tag>" \
   --build-arg APACHE_MIRROR="http://apache.hippo.nl" .
 ```
 
+To pull the latest image from docker hub run
+
+```bash
+docker pull meteogroup/hadoop
+```
+
 The docker image is intended to be used as a base image for hadoop based
 services. There is no default `CMD` or `ENTRYPOINT`. To drop into a shell
 run
 
 ```bash
-docker run --rm -ti "<image tag>" /bin/bash
+docker run --rm -ti meteogroup/hadoop /bin/bash
 ```
+
 
 ### License
 
