@@ -42,7 +42,8 @@ docker run --rm -ti meteogroup/hadoop /bin/bash
 
 ### License
 
-[Apache™ Hadoop®](http://hadoop.apache.org) is licensed under the
+[Apache™ Hadoop®](http://hadoop.apache.org)
+– Copyright © 2014 The Apache Software Foundation, licensed under the
 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 Copyright © 2016 MeteoGroup Deutschland GmbH,
