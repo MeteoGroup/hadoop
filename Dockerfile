@@ -17,7 +17,7 @@ FROM meteogroup/java:8
 ARG APACHE_MIRROR=http://www.apache.org/dist
 
 RUN cd opt &&\
-    curl -f "$APACHE_MIRROR/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz" | gunzip | tar -x &&\
+    curl -f "$APACHE_MIRROR/hadoop/common/hadoop-2.8.0/hadoop-2.8.0.tar.gz" | gunzip | tar -x &&\
     ln -s hadoop-* hadoop
 
 RUN if [ ! -x /bin/which ]; then \
